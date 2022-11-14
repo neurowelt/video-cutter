@@ -4,7 +4,6 @@ use warnings;
 use DateTime;
 use Time::Piece;
 use Time::Seconds;
-# use Spreadsheet::ParseXLSX;
 
 # Get the filename from terminal input
 my $file = $ARGV[0] or die "Please input the filename\n";
